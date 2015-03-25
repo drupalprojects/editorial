@@ -1,4 +1,4 @@
-; ulmus make file for d.o. usage
+; editorial make file for d.o. usage
 core = "7.x"
 api = "2"
 

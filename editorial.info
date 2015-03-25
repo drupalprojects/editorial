@@ -1,4 +1,4 @@
-; Packaging information for ulmus
+; Packaging information for editorial
 name = "Editorial"
 description = "Blogging tool, primarily designed for use in ELMSLN."
 core = "7.x"
@@ -21,6 +21,8 @@ dependencies[] = file
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 ; Other
+dependencies[] = ctools
+dependencies[] = views
 dependencies[] = httprl
 dependencies[] = entity
 dependencies[] = entity_token

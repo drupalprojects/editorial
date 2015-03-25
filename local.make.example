@@ -1,4 +1,4 @@
-; ulmus make file for local development
+; editorial make file for local development
 core = "7.x"
 api = "2"
 
@@ -26,11 +26,11 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 
-; ulmus
-libraries[ulmus][type] = "profile"
-libraries[ulmus][destination] = "../../profiles"
-libraries[ulmus][download][type] = "git"
-libraries[ulmus][download][branch] = "7.x-1.x"
-libraries[ulmus][directory_name] = "ulmus"
-libraries[ulmus][download][url] = "https://github.com/drupalprojects/ulmus.git"
+; editorial
+libraries[editorial][type] = "profile"
+libraries[editorial][destination] = "../../profiles"
+libraries[editorial][download][type] = "git"
+libraries[editorial][download][branch] = "7.x-1.x"
+libraries[editorial][directory_name] = "editorial"
+libraries[editorial][download][url] = "https://github.com/drupalprojects/editorial"
 
