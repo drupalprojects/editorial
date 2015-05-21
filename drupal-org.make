@@ -64,6 +64,12 @@ projects[replicate][subdir] = "contrib"
 projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 
+projects[special_menu_items][version] = "2.0"
+projects[special_menu_items][subdir] = "contrib"
+
+projects[menu_attributes][version] = "1.0-rc3"
+projects[menu_attributes][subdir] = "contrib"
+
 projects[features_override][version] = "2.0-rc1"
 projects[features_override][subdir] = "contrib"
 
