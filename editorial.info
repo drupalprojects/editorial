@@ -3,6 +3,8 @@ name = "Editorial"
 description = "Blogging tool, primarily designed for use in ELMSLN."
 exclusive = "1"
 core = "7.x"
+elmslndefaulttitle = "Blogs"
+elmslntype = "service"
 
 ; ----------
 ; ELMSLN Core Dependencies
@@ -126,4 +128,5 @@ dependencies[] = editorial_journal_entry
 dependencies[] = editorial_story_seeds
 dependencies[] = editorial_displays
 dependencies[] = editorial_ux
+dependencies[] = editorial_perms
 
