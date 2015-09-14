@@ -1,22 +1,22 @@
 <?php
 /**
  * @file
- * editorial_journal_entry.features.field_base.inc
+ * editorial_section_journal.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function editorial_journal_entry_field_default_field_bases() {
+function editorial_section_journal_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_editorial_exercise'
-  $field_bases['field_editorial_exercise'] = array(
+  // Exported field_base: 'field_editorial_exercises'
+  $field_bases['field_editorial_exercises'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_editorial_exercise',
+    'field_name' => 'field_editorial_exercises',
     'indexes' => array(
       'tid' => array(
         0 => 'tid',
